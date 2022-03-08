@@ -7,5 +7,9 @@
   <body>
     <h1><%= title %></h1>
     <p>EJS Welcome to <%= title %></p>
+    <p><%= msg%></p>
+    <p><%= locals.msgq%></p>
+    <%- include('./component/user-info', {isMe: isMe}) %>
+    <%- include('./component/blog-list', {blogList: blogList}) %>
   </body>
 </html>
