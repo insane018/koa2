@@ -27,6 +27,7 @@ router.get('/string', async (ctx, next) => {
 })
 
 router.get('/json', async (ctx, next) => {
+    throw Error('23')
     // const session = ctx.session
     // if (session.viewNum === undefined) {
     //     session.viewNum = 0
