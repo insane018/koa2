@@ -34,7 +34,9 @@
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.3",
     "eslint": "^6.3.0",
+    "jest": "^27.5.1",
     "nodemon": "^1.19.1",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "supertest": "^6.2.2"
   }
 }
