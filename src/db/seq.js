@@ -1,4 +1,4 @@
-const Sequelize = require('requelize')
+const Sequelize = require('sequelize')
 const { MYSQL_CONF } = require('../config/db')
 const { isProd, isTest } = require('../utils/env')
 

@@ -55,11 +55,12 @@
                     }, function(err, data) {
                         $spanUserNameInfo.show()
                         if (err) {
-                            $spanUserNameInfo.text('用户名可用')
-                            isUserNameExist = false
-                        } else {
                             $spanUserNameInfo.text('用户名已存在！')
                             isUserNameExist = true
+                        } else {
+                            $spanUserNameInfo.text('用户名可用')
+                            isUserNameExist = false
+
                         }
                     })
                 }, 500)

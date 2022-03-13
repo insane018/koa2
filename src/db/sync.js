@@ -2,7 +2,9 @@
  * @description sequlize同步数据库
  */
 
-const req = require('./seq')
+const seq = require('./seq')
+
+require('./model/index')
 
 // 测试连接
 seq.authenticate().then(() => {
