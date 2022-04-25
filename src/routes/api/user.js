@@ -3,7 +3,7 @@ const {isExist, register} = require('../../controller/user')
 const genValidator = require('../../middlewares/validator')
 const validateUser = require('../../validator/user')
 
-router.prefix('/api/user3')
+router.prefix('/api/user')
 
 
 
