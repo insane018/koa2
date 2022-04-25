@@ -7,7 +7,7 @@ router.prefix('/api/user3')
 
 
 
-router.post('/register', genValidator(validateUser), async (ctx, next) => {
+router.post('/registerddd', genValidator(validateUser), async (ctx, next) => {
     const {userName, password, gender} = ctx.request.body
     ctx.body = await register({
         userName,
