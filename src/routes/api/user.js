@@ -5,8 +5,11 @@ const validateUser = require('../../validator/user')
 
 router.prefix('/api/user')
 
+
+
 router.post('/register', genValidator(validateUser), async (ctx, next) => {
     const {userName, password, gender} = ctx.request.body
+    
     ctx.body = await register({
         userName,
         password,
